@@ -1,0 +1,14 @@
+# Binaries
+bin/
+dist/
+
+# Env & Secrets
+.env
+*.pem
+
+# Database Data (Do NOT commit your local DB data)
+pgdata/
+etcd-data/
+
+# OS
+.DS_Store
